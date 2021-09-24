@@ -15,26 +15,38 @@ module.exports = [
       thirdparty: [
         // 可选，默认 []
         {
-          title: '在MDN中搜索',
-          frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
-          behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
-        },
-        {
-          title: '在Runoob中搜索',
-          frontUrl: 'https://www.runoob.com/?s=',
-        },
-        {
-          title: '在Vue API中搜索',
-          frontUrl: 'https://cn.vuejs.org/v2/api/#',
+          title: '通过Google搜索',
+          frontUrl: 'https://www.google.com.hk/search?q='
         },
         {
           title: '在Bing中搜索',
           frontUrl: 'https://cn.bing.com/search?q=',
         },
+        // {
+        //   title: '通过百度搜索',
+        //   frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+        // },
         {
-          title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+          title: '通过StackOverflow搜索',
+          frontUrl: 'https://stackoverflow.com/nocaptcha?s=',
         },
+        {
+          title: '通过CSDN搜索',
+          frontUrl: 'https://so.csdn.net/so/search?q='
+        }
+        // {
+        //   title: '在MDN中搜索',
+        //   frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
+        //   behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
+        // },
+        // {
+        //   title: '在Runoob中搜索',
+        //   frontUrl: 'https://www.runoob.com/?s=',
+        // },
+        // {
+        //   title: '在Vue API中搜索',
+        //   frontUrl: 'https://cn.vuejs.org/v2/api/#',
+        // },
       ],
     },
   ],
@@ -56,7 +68,7 @@ module.exports = [
       settings: {
         // jsLib: ['http://xxx'], // 在线示例(jsfiddle, codepen)中的js依赖
         // cssLib: ['http://xxx'], // 在线示例中的css依赖
-        // vue: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
+        vue: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
         jsfiddle: false, // 是否显示 jsfiddle 链接
         codepen: true, // 是否显示 codepen 链接
         horizontal: false, // 是否展示为横向样式
@@ -83,11 +95,11 @@ module.exports = [
     {
       choosen: 'gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'xugaoyi', // GitHub仓库所有者
-        admin: ['xugaoyi'], // 对仓库有写权限的人
+        clientID: '60a00dae568ae0141a2f',
+        clientSecret: '3c257e20704f0ac0c6eab9187437f5d05aa78134',
+        repo: 'blog_comment', // GitHub 仓库
+        owner: 'cwenan', // GitHub仓库所有者
+        admin: ['cwenan'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
