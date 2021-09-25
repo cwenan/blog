@@ -33,6 +33,10 @@ module.exports = [
         {
           title: '通过CSDN搜索',
           frontUrl: 'https://so.csdn.net/so/search?q='
+        },
+        {
+          title: '通过知乎搜索',
+          frontUrl: 'https://www.zhihu.com/search?type=content&q='
         }
         // {
         //   title: '在MDN中搜索',

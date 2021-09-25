@@ -9,7 +9,7 @@ module.exports = [
         text: 'Python语法',
         items: [
           {
-            text: '基础语法', link: '/pages/bef152/'
+            text: 'Python基础语法', link: '/pages/bef152/'
           }
         ]
       },
@@ -33,6 +33,25 @@ module.exports = [
     ]
   },
 
+  //  总汇总
+  {
+    text: 'Coding',
+    link: '/coding/',
+    items: [
+      {text: 'Python', link: '/python/'}
+    ]
+  },
+  {
+    text: 'Tips',
+    link: '/tips/',
+    items: []
+  },
+  {
+    text: 'Others',
+    link: '/others/',
+    items: []
+  },
+
   {
     text: '索引',
     link: '/archives/',
@@ -42,4 +61,5 @@ module.exports = [
       { text: '归档', link: '/archives/' },
     ],
   },
+
 ]

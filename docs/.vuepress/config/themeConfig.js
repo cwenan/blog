@@ -27,7 +27,7 @@ module.exports = {
   //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
   // ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
   bodyBgImgOpacity: 1, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
-  bodyBgImg: 'https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210924205940.png',
+  bodyBgImg: 'https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210925140502.jpg',
 
   // titleBadge: false, // 文章标题前的图标是否显示，默认true
   // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
@@ -81,8 +81,7 @@ module.exports = {
   footer: {
     // 页脚信息
     createYear: 2021, // 博客创建年份
-    copyrightInfo:
-      'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+    copyrightInfo: '粤ICP备2020121415号-1' // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }
