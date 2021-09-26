@@ -24,4 +24,5 @@ module.exports = [
   ['script', { src: 'https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js' }],
   ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }],
   ['script', { src: 'https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js' }],
+  ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
 ]
